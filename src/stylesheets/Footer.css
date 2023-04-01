@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url(./Típografias/Dosis-Light.ttf);
+}
+
+@font-face {
+    font-family: Dharma;
+    src: url(./Típografias/DharmaSlabE-Regular.ttf);
+}
+
+p{
+    font-family: Dosis;
+}
+
+h1{
+    font-family: Dharma;
+}
+
+.pie-pag{
+    width: 100%;
+    background-color: #b9b9b9;
+    color: rgb(19, 19, 19);
+}
+
+.pie-pag .grupo-1{
+    width: 100%;
+    height: 150px;
+    max-width: 50%;
+    margin: auto;
+    display: grid;
+    grid-gap: 50px;
+    padding: 45px 0px ;
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer {
+    width: 50px;
+}
+
+.pie-pag .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none ;
+    width: 39px;
+    height: 41px;
+    line-height:45px;
+    color: #ffff;
+    background-color: #242424;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pag .grupo-1 .red-social a:hover {
+    color: #37A836;
+}
+
+.red-social{
+    display: flex;
+    justify-content: center;
+}
+
+.fa{
+    margin: 10px;
+}
+
+.box{
+    width: 50%;
+    text-align: center;
+}
+
+h4{
+    font-family: Dharma;
+}
+
+.pie-pag .grupo-2{
+    background-color: #686868;
+    padding: 15px 10px;
+    text-align: center;
+    color: #ffff;
+}
+
+.pie-pag .grupo-2 small{
+    font-size: 15PX;
+}

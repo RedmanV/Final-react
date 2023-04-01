@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url(./Típografias/Dosis-Light.ttf);
+}
+
+@font-face {
+    font-family: Dharma;
+    src: url(./Típografias/DharmaSlabE-Regular.ttf);
+}
+
+p{
+    font-family: Dosis;
+}
+
+h1{
+    font-family: Dharma;
+}
+
+.d-flex{
+    align-items: center !important;
+} 
+
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-1{
+    background-color: #e4e4e4;
+    margin: 1rem;
+    border-radius: 0 20px 0 20px;
+}
+
+.img-1{
+    width: 400px;
+}
+
+.logo-img{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.title-2{
+    color: rgb(230, 0, 0);
+}
+
+.sub-title-1{
+    color: yellow;
+    font-family: Dharma;
+}
+
+.accordion{
+    width: 500px;
+}
+
+.parrafo-2{
+    width: 70%;
+}
+
+.sub-title-2{
+    color: #37A836;     
+}
+
+.accordion-body{
+    font-family: Dosis;
+}
+
+.integrantes{
+    background-color: #e4e4e4;
+    margin: 2rem;
+}
+
+.c3{
+    justify-content: center;
+}
+
+.title-3{
+    text-align: center;
+}
+
+.Mariana{
+    width: 300px;
+    height: 350px;
+}
+
+.btn-1{
+    background-color: rgb(230, 0, 0);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 25%;
+    height: 40px;
+    justify-content: center;
+    margin: 1rem;
+    font-family: Dosis;
+}
+
+.btn-2{
+    background-color: rgb(208, 208, 7);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 30%;
+    height: 40px;
+    justify-content: center;
+    margin: 1rem;
+    font-family: Dosis;
+}
+
+.btn-3{
+    background-color: #37A836;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 25%;
+    height: 40px;
+    justify-content: center;
+    margin: 1rem;
+    font-family: Dosis;
+}
+
+
+.Emmanuel{
+    width: 300px;
+    height: 350px;
+}
+
+.Manuela{
+    width: 300px;
+    height: 350px;
+}
+
+.modal-body{
+    font-family: Dosis;
+}

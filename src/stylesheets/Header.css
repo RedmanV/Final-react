@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: Dosis;
+    src: url(./Típografias/Dosis-Light.ttf);
+}
+
+@font-face {
+    font-family: Dharma;
+    src: url(./Típografias/DharmaSlabE-Regular.ttf);
+}
+
+p{
+    font-family: Dosis;
+}
+
+h1{
+    font-family: Dharma;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+    font-family: Dosis;
+    width: 1375px;
+}
+
+.navbar{
+    text-decoration: none;
+    color: black;
+    margin: 30px
+}
+
+.nav-link:hover{
+    color: #37A836 !important;
+}
+
+.d-flex{
+    align-items: center !important;
+} 
+
+.logo{
+    width: 150px;
+    height: 230px;
+} 
